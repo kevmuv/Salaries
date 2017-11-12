@@ -8,7 +8,7 @@ salaries by region.
 
 ## Getting Started
 
-First we import pandas,numpy and matplot lib in order to read in the csv file, but also perform different visualizations.
+First we import pandas,numpy and matplot lib in order to read in the csv file, but also perform different visualizations:
 
 ```
 import pandas as pd
@@ -26,6 +26,8 @@ salaries=pd.read_csv("Salariesandregion.csv")
 salaries.head()
 salaries.dropna()
 ```
+![GitHub Logo](/png0.PNG)
+
 Then we use the function dtypes to establish the data types of our values.
 
 ```
@@ -64,6 +66,7 @@ schools = salaries[['School Name','Region','Starting Median Salary'
 ]]
 schools.head()
 ```
+![GitHub Logo](/png5.PNG)
 
 We then call the function mean in order to get the regional averages we want for the 'Starting Median Salary' column.
 
@@ -87,7 +90,7 @@ Western
 ```
 ## Plotting
 
-Now we can plot a bar graph using the code below
+Now we can plot a bar graph using the code below.
 
 ```
 #We call in the function plot to visualize our averages
@@ -96,7 +99,7 @@ my_plot = Salaryreg.plot(kind='bar')
 ```
 ![GitHub Logo](/png1.PNG)
 
-To make a more comprehensive graph we add new lines of code
+To make a more comprehensive graph we add new lines of code.
 
 ```
 #In order to make the chart more insightful we can add other things
@@ -109,7 +112,7 @@ my_plot.set_ylabel("Salaries ($)")
 ```
 ![GitHub Logo](/png2.PNG)
 
-Now let us look at the overall average salaries for the 10 year period by region
+Now let us look at the overall average salaries for the 10 year period by region.
 
 ```
 #Now let us get the overall salaries for the five regions
@@ -127,7 +130,7 @@ my_plot.set_ylabel("Salaries ($)")
 
 ![GitHub Logo](/png3.PNG)
 
-Finally we create a pie chart representing the average Starting Median Salary by region
+Finally we create a pie chart representing the average Starting Median Salary by region.
 
 ```
 #To create the pie chart it is important to note that we assigned sizes based on the first bar graph
