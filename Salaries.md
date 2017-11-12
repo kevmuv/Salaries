@@ -94,7 +94,7 @@ Now we can plot a bar graph using the code below
 #We set kind to "bar", because we want a bar graph
 my_plot = Salaryreg.plot(kind='bar')
 ```
-### Graph1
+![GitHub Logo](/png1.PNG)
 
 To make a more comprehensive graph we add new lines of code
 
@@ -107,7 +107,7 @@ my_plot = Salaryreg.plot(kind='bar',legend=None,title="Average Starting Salary B
 my_plot.set_xlabel("Region")
 my_plot.set_ylabel("Salaries ($)")
 ```
-### Graph 2
+![GitHub Logo](/png2.PNG)
 
 Now let us look at the overall average salaries for the 10 year period by region
 
@@ -125,7 +125,7 @@ my_plot.set_xlabel("Region")
 my_plot.set_ylabel("Salaries ($)")
 ```
 
-### Graph 3
+![GitHub Logo](/png3.PNG)
 
 Finally we create a pie chart representing the average Starting Median Salary by region
 
@@ -144,7 +144,7 @@ plt.axis('equal')
 plt.tight_layout()
 plt.show()
 ```
-
+![GitHub Logo](/png4.PNG)
 
 
 
